@@ -8,12 +8,12 @@ public class PrincipalTest {
 
     @BeforeEach
     public void setUp() {
-        obPrincipal =  new Principal();
+        obPrincipal = new Principal();
     }
 
     @Test
     @DisplayName("displayGUI")
     public void shouldDisplayGUI() {
-        
+
     }
 }

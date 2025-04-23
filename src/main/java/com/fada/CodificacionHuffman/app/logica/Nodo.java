@@ -14,107 +14,89 @@
 
 package com.fada.CodificacionHuffman.app.logica;
 
-public class Nodo 
-{
-    //Variables
+public class Nodo {
+    // Variables
     private Integer valor;
     private String valorArista;
     private Character caracter;
     private Nodo padre, hijoIzquierdo, hijoDerecho;
-    
-    //Constructores
-    Nodo () 
-    {
+
+    // Constructores
+    Nodo() {
         this.valor = null;
         this.caracter = null;
         this.padre = null;
         this.hijoIzquierdo = null;
         this.hijoDerecho = null;
     }
-    
-    Nodo (Integer valor, Character caracter, Nodo padre, Nodo hijoIzquierdo, Nodo hijoDerecho) 
-    {
+
+    Nodo(Integer valor, Character caracter, Nodo padre, Nodo hijoIzquierdo, Nodo hijoDerecho) {
         this.valor = valor;
         this.caracter = caracter;
         this.padre = padre;
         this.hijoIzquierdo = hijoIzquierdo;
         this.hijoDerecho = hijoDerecho;
     }
-    
-    //Metodos Set's y Get's
-    public void setValor(Integer valor)
-    {
+
+    // Metodos Set's y Get's
+    public void setValor(Integer valor) {
         this.valor = valor;
     }
-    
-    public Integer getValor()
-    {
+
+    public Integer getValor() {
         return valor;
     }
-    
-    public void setValorCamino(String valorArista)
-    {
+
+    public void setValorCamino(String valorArista) {
         this.valorArista = valorArista;
     }
-    
-    public String getValorCamino()
-    {
+
+    public String getValorCamino() {
         return valorArista;
     }
-    
-    public void setCaracter(Character caracter)
-    {
+
+    public void setCaracter(Character caracter) {
         this.caracter = caracter;
     }
-    
-    public Character getCaracter()
-    {
+
+    public Character getCaracter() {
         return caracter;
     }
-    
-    public void setPadre (Nodo padre) 
-    {
+
+    public void setPadre(Nodo padre) {
         this.padre = padre;
     }
-    
-    public Nodo getPadre () 
-    {
+
+    public Nodo getPadre() {
         return padre;
     }
-    
-    public void setHijoIzquierdo (Nodo hijoIzquierdo) 
-    {
+
+    public void setHijoIzquierdo(Nodo hijoIzquierdo) {
         this.hijoIzquierdo = hijoIzquierdo;
     }
-    
-    public Nodo getHijoIzquierdo () 
-    {
+
+    public Nodo getHijoIzquierdo() {
         return hijoIzquierdo;
     }
-    
-    public void setHijoDerecho (Nodo hijoDerecho) 
-    {
+
+    public void setHijoDerecho(Nodo hijoDerecho) {
         this.hijoDerecho = hijoDerecho;
     }
-    
-    public Nodo getHijoDerecho () 
-    {
+
+    public Nodo getHijoDerecho() {
         return hijoDerecho;
     }
-    
-    //Metodos
-    public boolean hasLeft () 
-    {
+
+    // Metodos
+    public boolean hasLeft() {
         return hijoIzquierdo != null;
     }
-    
-    public boolean hasRight () 
-    {
+
+    public boolean hasRight() {
         return hijoDerecho != null;
     }
-    
-    public boolean isLeaf () 
-    {
+
+    public boolean isLeaf() {
         return ((hasLeft() == false) && (hasRight() == false));
     }
 }

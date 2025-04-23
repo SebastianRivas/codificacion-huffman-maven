@@ -8,7 +8,7 @@ public class ArbolTest {
 
     @BeforeEach
     public void setUp() {
-        objArbol =  new Arbol();
+        objArbol = new Arbol();
     }
 
     @Test
@@ -20,18 +20,18 @@ public class ArbolTest {
     @Test
     @DisplayName("conteoNodos")
     public void shouldConteoNodos() {
-        
+
     }
 
     @Test
     @DisplayName("altura")
     public void shouldAltura() {
-        
+
     }
 
     @Test
     @DisplayName("generarListaHojas")
     public void shouldGenerarListaHojas() {
-        
+
     }
 }

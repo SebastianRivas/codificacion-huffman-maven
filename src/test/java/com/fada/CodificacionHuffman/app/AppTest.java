@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     private App objApp;
-    
+
     @BeforeEach
     public void setUp() {
-        objApp =  new App();
+        objApp = new App();
     }
 
     @Test

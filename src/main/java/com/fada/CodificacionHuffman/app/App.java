@@ -8,7 +8,7 @@ public class App {
     public static void main(String[] args) {
         objGUIPrincipal = new Principal();
         objGUIPrincipal.runGUI();
-        
+
         System.out.println("Run App!");
     }
 }

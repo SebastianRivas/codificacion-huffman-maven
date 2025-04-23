@@ -8,18 +8,18 @@ public class ListaTest {
 
     @BeforeEach
     public void setUp() {
-        objLista =  new Lista();
+        objLista = new Lista();
     }
 
     @Test
     @DisplayName("generarLista")
     public void shouldGenerarLista() {
-        
+
     }
 
     @Test
     @DisplayName("ordenarLista")
     public void shouldOrdenarLista() {
-        
+
     }
 }

@@ -5,33 +5,33 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ArchivoTest {
     private Archivo objArchivo;
-    
+
     @BeforeEach
     public void setUp() {
-        objArchivo =  new Archivo("");
+        objArchivo = new Archivo("");
     }
 
     @Test
     @DisplayName("leerArchivo")
-    public void shouldLeerArchivo(){
+    public void shouldLeerArchivo() {
 
     }
 
     @Test
     @DisplayName("escribirArchivoHuffman")
-    public void shouldEscribirArchivoHuffman(){
+    public void shouldEscribirArchivoHuffman() {
 
     }
 
     @Test
     @DisplayName("escribirArchivoAscii")
-    public void shouldEscribirArchivoAscii(){
+    public void shouldEscribirArchivoAscii() {
 
     }
 
     @Test
     @DisplayName("escribirInforme")
-    public void shouldEscribirInforme(){
-        
+    public void shouldEscribirInforme() {
+
     }
 }

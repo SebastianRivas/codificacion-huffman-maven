@@ -8,7 +8,7 @@ public class ProcesarStringsTest {
 
     @BeforeEach
     public void setUp() {
-        objProcesarStrings =  new ProcesarStrings();
+        objProcesarStrings = new ProcesarStrings();
     }
 
     @Test
@@ -20,6 +20,6 @@ public class ProcesarStringsTest {
     @Test
     @DisplayName("generarAscii")
     public void shouldGenerarAscii() {
-        
+
     }
 }

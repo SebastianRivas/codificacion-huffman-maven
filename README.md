@@ -1,7 +1,9 @@
 # CODIFICACION HUFFMAN (JAVA & MAVEN)
+
 Este proyecto tiene una implementación en el lenguaje de programación JAVA usando el gestor de paquetes MAVEN del algoritmo de compresión de datos llamado Codificación Huffman.
 
 ## ESTRUCTURA DE DIRECCTORIOS 🗂️
+
 ```bash
 .
 ├── pom.xml
@@ -50,26 +52,31 @@ Este proyecto tiene una implementación en el lenguaje de programación JAVA usa
 ```
 
 ## EJECUCION DEL PROYECTO ⌨️
+
 ⚠️ La compilacion y posterior ejecucion del proyecto se debe hacer desde la raiz del proyecto ⚠️
 
 ⚠️ La salida del programa se almacena en ⚠️
+
 ```bash
 src/main/java/com/fada/CodificacionHuffman/output/text
 ```
 
-* Compilacion y ejecucion
+- Compilacion y ejecucion
 
 Compilacion
+
 ```bash
     mvn clean install
 ```
 
 Construccion del JAR
+
 ```bash
     mvn package
 ```
 
 Ejecucion
+
 ```bash
     java -cp target/CodificacionHuffman-1.0-SNAPSHOT.jar com.fada.CodificacionHuffman.app.App
 ```
